@@ -17,4 +17,4 @@ Port: 55555 (you can change this port in the file if you want)
 
 The version shouldn't matter, I don't think.
 
-This will now send all your browser traffic through port 55555 which will get forward from you ssh destination to whatever websites you are accessing.
+This will now send all your browser traffic through port 55555 which will get sent to your ssh destination and then forwarded to the website you are trying to access
