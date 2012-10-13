@@ -1,0 +1,20 @@
+Simple script to tunnel through a server using ssh. I use this to tunnel to a University machine from which I can access some websites.
+
+To get this to work on firefox you will need to do the following:
+
+Tools > Options
+
+OR
+
+Edit > Preferences
+
+THEN
+
+Advanced > Network > Settings
+
+SOCKS Host: localhost
+Port: 55555 (you can change this port in the file if you want)
+
+The version shouldn't matter, I don't think.
+
+This will now send all your browser traffic through port 55555 which will get forward from you ssh destination to whatever websites you are accessing.
