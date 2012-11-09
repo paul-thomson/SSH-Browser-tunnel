@@ -7,6 +7,6 @@ fi
 
 echo "Now to use your browser through this tunnel, set the connection settings to SOCKS host localhost:55555"
 
-ssh -fND 55555 $1
+ssh -D 55555 $1
 
 
